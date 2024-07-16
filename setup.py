@@ -18,8 +18,10 @@ setup(
     description='TODO: Package description',
     license='TODO: License declaration',
     tests_require=['pytest'],
-    entry_points={
+    entry_points={ # all executables must have entry point in setup.py
         'console_scripts': [
+            'publisher = intro_to_ros.publisher:main',
+            'subscriber = intro_to_ros.subscriber:main',
         ],
     },
 )
