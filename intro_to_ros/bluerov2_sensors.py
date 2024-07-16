@@ -6,28 +6,35 @@ from sensor_msgs.msg import BatteryState
 from sensor_msgs.msg import Imu
 
 class SensorSubscriber(Node):
+    
+    battery_message = BatteryState()
+    IMU_message = Imu()
+    
     def __init__(self):
         super().__init__("Battery sensor messages")
         
-        self.subscriber = self.create_subscription(
+        self.battery_subscriber = self.create_subscription(
             BatteryState, # message type
             "/mavros/battery", # topic
-            self.my_callback,
+            self.callback,
             10
             )
         
-        self.subscriber = self.create_subscription(
-            Imu, # message type
-            "/mavros/imu/data", # topic
-            self.my_callback,
-            10
-            )
+        # self.IMU_subscriber = self.create_subscription(
+        #     Imu, # message type
+        #     "/mavros/imu/data", # topic
+        #     self.callback,
+        #     10
+        #     )
         
-        self.subscriber
+        self.battery_subscriber
+        # self.IMU_subscriber
         self.get_logger().info("starting subscriber node")
         
-    def callback(self, msg): # for each subscriber need callback method
-        self.get_logger().info(f"Battery state: {BatteryState}, IMU: {Imu}")
+    def callback(self, battery_message): # for each subscriber need callback method
+        # battery_message = BatteryState()
+        # IMU_message = Imu()
+        self.get_logger().info(f"Battery state: {battery_message}")
         
 def main(args=None):
     rclpy.init(args=args)

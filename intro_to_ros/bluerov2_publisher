@@ -1,0 +1,38 @@
+import rclpy
+from rclpy.node import Node
+from sensor_msgs.msg import BatteryState
+from sensor_msgs.msg import Imu
+
+class SensorPublisher(Node):
+    def __init__(self):
+        super().__init__("Sensor_publisher")
+        self.publisher = self.create_publisher(
+            BatteryState,
+            "/mavros/battery",
+            10
+        )
+        self.publisher_timer = self.create_timer(
+            # create timer that runs run_node method every second (1 Hz freq)
+            1.0, self.run_node
+        )
+        self.get_logger().info("starting publisher node") # log node starting in terminal
+        
+    def run_node(self):
+        battery_message = BatteryState()
+        self.publisher.publish(battery_message)
+        
+def main(args=None):
+    rclpy.init(args=args) # starts ROS2 Python3 client
+    node = SensorPublisher() # makes instasnce of TutorialPublisher class
+
+    try:
+        rclpy.spin(node) # keeps node running until exception
+    except KeyboardInterrupt:
+        print("\nKeyboardInterrupt received, shutting down...")
+    finally:
+        node.destroy_node() # destroys node at end of program lifespan
+        if rclpy.ok():
+            rclpy.shutdown() # closes ROS2 client if still active
+
+if __name__=="__main__":
+    main()
