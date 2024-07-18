@@ -1,35 +1,57 @@
 #!/usr/bin/env python3
-
+import time
 import rclpy
 from rclpy.node import Node
-from geometry_msgs.msg import Vector3
+from rclpy.qos import QoSProfile, QoSHistoryPolicy, QoSReliabilityPolicy, QoSDurabilityPolicy
+from sensor_msgs.msg import BatteryState
+from sensor_msgs.msg import Imu
+
+# computer IP: 169.254.168.23
 
 import numpy as np
 
-class TutorialSubscriber(Node):
+class Bluerov2_Sensors(Node):
     def __init__(self):
-        super().__init__("tutorial_subscriber")
-        self.subscriber = self.create_subscription(
-            # create subscriber that receives Vector3 msgs on topic named /tutorial/vector3 in method self.callback
-            Vector3,
-            "/tutorial/vector3",
-            self.callback,
-            10
+        super().__init__("battery_subscriber")
+        qos_profile = QoSProfile(
+            history=QoSHistoryPolicy.KEEP_LAST,
+            depth=10,
+            reliability=QoSReliabilityPolicy.BEST_EFFORT,
+            durability=QoSDurabilityPolicy.VOLATILE
         )
-        self.subscriber
-        self.get_logger().info("starting subscriber node")
-        
-    def callback(self, msg): # for each subscriber need callback method
-        magnitude = np.sqrt(msg.x ** 2 + msg.y ** 2 + msg.z ** 2)
-        data = Vector3()
-        data.x = msg.x / magnitude
-        data.y = msg.y / magnitude
-        data.z = msg.z / magnitude
-        self.get_logger().info(f"Vector3\n\tx: {data.x}\ty: {data.y}\tz: {data.z}")
-        
+        self.subscriber = self.create_subscription(
+            BatteryState,
+            "/mavros/battery",
+            self.callback,
+            qos_profile
+        )
+        self.subscriber2 = self.create_subscription(
+            Imu,
+            "/mavros/imu/data",
+            self.callback2,
+            qos_profile
+        )
+        self.get_logger().info("starting subscriber nodes")
+        time.sleep(1)
+
+    def callback(self, msg):
+        self.get_logger().info(f"BatteryState: {msg.voltage}")
+        self.battery = msg.voltage
+        self.check_battery()
+ 
+    def callback2(self, msg):
+        self.get_logger().info(f"Imu: {msg}")
+        self.IMU = msg
+
+    def check_battery(self):
+        if self.battery > 12:
+            return
+        self.get_logger().info("voltage below safe!!!")
+        return
+
 def main(args=None):
     rclpy.init(args=args)
-    node = TutorialSubscriber()
+    node = Bluerov2_Sensors()
 
     try:
         rclpy.spin(node)
