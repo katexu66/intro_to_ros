@@ -44,7 +44,7 @@ class Bluerov2_Sensors(Node):
         self.IMU = msg
 
     def check_battery(self):
-        if self.battery > 12:
+        if self.battery < 12:
             return
         self.get_logger().info("voltage below safe!!!")
         return
