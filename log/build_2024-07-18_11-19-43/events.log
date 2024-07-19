@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.001003] (intro_to_ros) JobQueued: {'identifier': 'intro_to_ros', 'dependencies': OrderedDict()}
+[0.001884] (intro_to_ros) JobStarted: {'identifier': 'intro_to_ros'}
+[0.099231] (-) TimerEvent: {}
+[0.199886] (-) TimerEvent: {}
+[0.301003] (-) TimerEvent: {}
+[0.401722] (-) TimerEvent: {}
+[0.502393] (-) TimerEvent: {}
+[0.603227] (-) TimerEvent: {}
+[0.703883] (-) TimerEvent: {}
+[0.804692] (-) TimerEvent: {}
+[0.905333] (-) TimerEvent: {}
+[1.005954] (-) TimerEvent: {}
+[1.106706] (-) TimerEvent: {}
+[1.208410] (-) TimerEvent: {}
+[1.309773] (-) TimerEvent: {}
+[1.410569] (-) TimerEvent: {}
+[1.511482] (-) TimerEvent: {}
+[1.612138] (-) TimerEvent: {}
+[1.712889] (-) TimerEvent: {}
+[1.813899] (-) TimerEvent: {}
+[1.914554] (-) TimerEvent: {}
+[2.015151] (-) TimerEvent: {}
+[2.115881] (-) TimerEvent: {}
+[2.216564] (-) TimerEvent: {}
+[2.317187] (-) TimerEvent: {}
+[2.417866] (-) TimerEvent: {}
+[2.518558] (-) TimerEvent: {}
+[2.619330] (-) TimerEvent: {}
+[2.720052] (-) TimerEvent: {}
+[2.820873] (-) TimerEvent: {}
+[2.921618] (-) TimerEvent: {}
+[3.022269] (-) TimerEvent: {}
+[3.122924] (-) TimerEvent: {}
+[3.223714] (-) TimerEvent: {}
+[3.324397] (-) TimerEvent: {}
+[3.425029] (-) TimerEvent: {}
+[3.525659] (-) TimerEvent: {}
+[3.626329] (-) TimerEvent: {}
+[3.726955] (-) TimerEvent: {}
+[3.827581] (-) TimerEvent: {}
+[3.928179] (-) TimerEvent: {}
+[4.028836] (-) TimerEvent: {}
+[4.129431] (-) TimerEvent: {}
+[4.230036] (-) TimerEvent: {}
+[4.330702] (-) TimerEvent: {}
+[4.431380] (-) TimerEvent: {}
+[4.532083] (-) TimerEvent: {}
+[4.633392] (-) TimerEvent: {}
+[4.734064] (-) TimerEvent: {}
+[4.834755] (-) TimerEvent: {}
+[4.935418] (-) TimerEvent: {}
+[5.036053] (-) TimerEvent: {}
+[5.136892] (-) TimerEvent: {}
+[5.238141] (-) TimerEvent: {}
+[5.265453] (intro_to_ros) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros/build', '--no-deps', 'symlink_data'], 'cwd': '/home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros', 'env': {'VIRTUALENVWRAPPER_WORKON_CD': '1', 'USER': 'katexu66', 'SSH_CLIENT': '169.254.97.140 55593 22', 'WORKON_HOME': '/home/katexu66/.virtualenvs', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/katexu66/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'BROWSER': '/home/katexu66/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/helpers/browser.sh', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/katexu66', 'OLDPWD': '/home/katexu66/auvc_ws/src/intro_to_ros', 'LESS': '-R', 'VIRTUALENVWRAPPER_PYTHON': '/usr/bin/python3', 'TERM_PROGRAM_VERSION': '1.91.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1004/vscode-ipc-001c59fa-e08b-4466-9eb2-4d8a0be0ea64.sock', 'VSCODE_ENV_PREPEND': 'PATH=/home/katexu66/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/deactivate/zsh\\x3a/home/katexu66/.virtualenvs/python-refresher/bin\\x3a:PS1=python-refresher', 'ZSH': '/home/katexu66/.oh-my-zsh', 'LSCOLORS': 'Gxfxcxdxbxegedabagacad', 'VSCODE_GIT_ASKPASS_MAIN': '/home/katexu66/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/extensions/git/dist/askpass-main.js', 'PAGER': 'less', 'ROS_PYTHON_VERSION': '3', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'VSCODE_GIT_ASKPASS_NODE': '/home/katexu66/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1004/bus', 'COLORTERM': 'truecolor', 'ROS_DISTRO': 'jazzy', 'COLCON_PREFIX_PATH': '/home/katexu66/auvc_ws/install', 'LOGNAME': 'katexu66', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'XDG_SESSION_ID': '2', 'TERM': 'xterm-256color', 'PATH': '/home/katexu66/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/deactivate/zsh:/home/katexu66/.virtualenvs/python-refresher/bin:/home/katexu66/.local/bin:/home/katexu66/.local/bin:/home/katexu66/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/deactivate/zsh:/home/katexu66/.virtualenvs/python-refresher/bin:/home/katexu66/.vscode-server/extensions/ms-python.python-2024.10.0-linux-arm64/python_files/deactivate/zsh:/home/katexu66/.virtualenvs/python-refresher/bin:/home/katexu66/.vscode-server/cli/servers/Stable-f1e16e1e6214d7c44d078b1f0607b2388f29d729/server/bin/remote-cli:/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/katexu66/.local/bin:/home/katexu66/.local/bin:/home/katexu66/ardupilot/TARGET_DIR/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/katexu66/ardupilot/TARGET_DIR/gcc-arm-none-eabi-10-2020-q4-major/bin:/home/katexu66/ardupilot/TARGET_DIR/gcc-arm-none-eabi-10-2020-q4-major/bin', 'XDG_RUNTIME_DIR': '/run/user/1004', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'VIRTUAL_ENV_PROMPT': 'python-refresher', 'TERM_PROGRAM': 'vscode', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1004/vscode-git-f13591ca1f.sock', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'AMENT_PREFIX_PATH': '/home/katexu66/auvc_ws/install/intro_to_ros:/opt/ros/jazzy', 'SHELL': '/usr/bin/zsh', 'VSCODE_ENV_REPLACE': 'VIRTUAL_ENV=/home/katexu66/.virtualenvs/python-refresher:VIRTUAL_ENV_PROMPT=python-refresher', 'VIRTUALENVWRAPPER_PROJECT_FILENAME': '.project', 'VIRTUALENVWRAPPER_HOOK_DIR': '/home/katexu66/.virtualenvs', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'VIRTUAL_ENV': '/home/katexu66/.virtualenvs/python-refresher', 'VIRTUALENVWRAPPER_SCRIPT': 'virtualenvwrapper.sh', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'PWD': '/home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '169.254.97.140 55593 169.254.193.89 22', 'PYTHONPATH': '/home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages:/home/katexu66/auvc_ws/install/intro_to_ros/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[5.338336] (-) TimerEvent: {}
+[5.439004] (-) TimerEvent: {}
+[5.539703] (-) TimerEvent: {}
+[5.640414] (-) TimerEvent: {}
+[5.741121] (-) TimerEvent: {}
+[5.841835] (-) TimerEvent: {}
+[5.942493] (-) TimerEvent: {}
+[6.043078] (-) TimerEvent: {}
+[6.143781] (-) TimerEvent: {}
+[6.244393] (-) TimerEvent: {}
+[6.344991] (-) TimerEvent: {}
+[6.445695] (-) TimerEvent: {}
+[6.546842] (-) TimerEvent: {}
+[6.647711] (-) TimerEvent: {}
+[6.748352] (-) TimerEvent: {}
+[6.848962] (-) TimerEvent: {}
+[6.949640] (-) TimerEvent: {}
+[7.050229] (-) TimerEvent: {}
+[7.150862] (-) TimerEvent: {}
+[7.174354] (intro_to_ros) StdoutLine: {'line': b'running develop\n'}
+[7.176033] (intro_to_ros) StderrLine: {'line': b'/usr/lib/python3/dist-packages/setuptools/command/develop.py:40: EasyInstallDeprecationWarning: easy_install command is deprecated.\n'}
+[7.177045] (intro_to_ros) StderrLine: {'line': b'!!\n'}
+[7.177746] (intro_to_ros) StderrLine: {'line': b'\n'}
+[7.178246] (intro_to_ros) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.181863] (intro_to_ros) StderrLine: {'line': b'        Please avoid running ``setup.py`` and ``easy_install``.\n'}
+[7.183306] (intro_to_ros) StderrLine: {'line': b'        Instead, use pypa/build, pypa/installer or other\n'}
+[7.183789] (intro_to_ros) StderrLine: {'line': b'        standards-based tools.\n'}
+[7.184175] (intro_to_ros) StderrLine: {'line': b'\n'}
+[7.184640] (intro_to_ros) StderrLine: {'line': b'        See https://github.com/pypa/setuptools/issues/917 for details.\n'}
+[7.185038] (intro_to_ros) StderrLine: {'line': b'        ********************************************************************************\n'}
+[7.185476] (intro_to_ros) StderrLine: {'line': b'\n'}
+[7.185900] (intro_to_ros) StderrLine: {'line': b'!!\n'}
+[7.186302] (intro_to_ros) StderrLine: {'line': b'  easy_install.initialize_options(self)\n'}
+[7.251024] (-) TimerEvent: {}
+[7.351740] (-) TimerEvent: {}
+[7.452514] (-) TimerEvent: {}
+[7.553122] (-) TimerEvent: {}
+[7.653812] (-) TimerEvent: {}
+[7.754870] (-) TimerEvent: {}
+[7.855593] (-) TimerEvent: {}
+[7.956836] (-) TimerEvent: {}
+[8.057494] (-) TimerEvent: {}
+[8.158087] (-) TimerEvent: {}
+[8.258727] (-) TimerEvent: {}
+[8.359638] (-) TimerEvent: {}
+[8.460219] (-) TimerEvent: {}
+[8.562414] (intro_to_ros) StdoutLine: {'line': b'running egg_info\n'}
+[8.563081] (-) TimerEvent: {}
+[8.563468] (intro_to_ros) StdoutLine: {'line': b'creating intro_to_ros.egg-info\n'}
+[8.663251] (-) TimerEvent: {}
+[8.706536] (intro_to_ros) StdoutLine: {'line': b'writing intro_to_ros.egg-info/PKG-INFO\n'}
+[8.707869] (intro_to_ros) StdoutLine: {'line': b'writing dependency_links to intro_to_ros.egg-info/dependency_links.txt\n'}
+[8.708728] (intro_to_ros) StdoutLine: {'line': b'writing entry points to intro_to_ros.egg-info/entry_points.txt\n'}
+[8.709479] (intro_to_ros) StdoutLine: {'line': b'writing requirements to intro_to_ros.egg-info/requires.txt\n'}
+[8.710358] (intro_to_ros) StdoutLine: {'line': b'writing top-level names to intro_to_ros.egg-info/top_level.txt\n'}
+[8.711315] (intro_to_ros) StdoutLine: {'line': b"writing manifest file 'intro_to_ros.egg-info/SOURCES.txt'\n"}
+[8.763406] (-) TimerEvent: {}
+[8.864019] (-) TimerEvent: {}
+[8.958491] (intro_to_ros) StdoutLine: {'line': b"reading manifest file 'intro_to_ros.egg-info/SOURCES.txt'\n"}
+[8.960957] (intro_to_ros) StdoutLine: {'line': b"writing manifest file 'intro_to_ros.egg-info/SOURCES.txt'\n"}
+[8.964154] (-) TimerEvent: {}
+[9.064822] (-) TimerEvent: {}
+[9.087240] (intro_to_ros) StdoutLine: {'line': b'running build_ext\n'}
+[9.088581] (intro_to_ros) StdoutLine: {'line': b'Creating /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/python3.12/site-packages/intro-to-ros.egg-link (link to .)\n'}
+[9.091221] (intro_to_ros) StdoutLine: {'line': b'Installing publisher script to /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/intro_to_ros\n'}
+[9.094571] (intro_to_ros) StdoutLine: {'line': b'Installing subscriber script to /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/lib/intro_to_ros\n'}
+[9.095368] (intro_to_ros) StdoutLine: {'line': b'\n'}
+[9.095889] (intro_to_ros) StdoutLine: {'line': b'Installed /home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros\n'}
+[9.096341] (intro_to_ros) StdoutLine: {'line': b'running symlink_data\n'}
+[9.100612] (intro_to_ros) StdoutLine: {'line': b'creating /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index\n'}
+[9.105543] (intro_to_ros) StdoutLine: {'line': b'creating /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index/resource_index\n'}
+[9.107164] (intro_to_ros) StdoutLine: {'line': b'creating /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index/resource_index/packages\n'}
+[9.108669] (intro_to_ros) StdoutLine: {'line': b'symbolically linking /home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros/resource/intro_to_ros -> /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/ament_index/resource_index/packages\n'}
+[9.112838] (intro_to_ros) StdoutLine: {'line': b'symbolically linking /home/katexu66/auvc_ws/src/intro_to_ros/build/intro_to_ros/package.xml -> /home/katexu66/auvc_ws/src/intro_to_ros/install/intro_to_ros/share/intro_to_ros\n'}
+[9.165111] (-) TimerEvent: {}
+[9.266145] (-) TimerEvent: {}
+[9.274685] (intro_to_ros) CommandEnded: {'returncode': 0}
+[9.344682] (intro_to_ros) JobEnded: {'identifier': 'intro_to_ros', 'rc': 0}
+[9.348217] (-) EventReactorShutdown: {}

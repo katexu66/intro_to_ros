@@ -21,8 +21,7 @@ setup(
     entry_points={ # all executables must have entry point in setup.py
         'console_scripts': [
             'publisher = intro_to_ros.publisher:main',
-            # 'subscriber = intro_to_ros.subscriber:main',
-            'bluerov2_sensors = intro_to_ros.bluerov2_sensors:main'
+            'subscriber = intro_to_ros.subscriber:main'
         ],
     },
 )
