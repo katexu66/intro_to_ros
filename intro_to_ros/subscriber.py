@@ -6,8 +6,6 @@ from rclpy.qos import QoSProfile, QoSHistoryPolicy, QoSReliabilityPolicy, QoSDur
 from sensor_msgs.msg import BatteryState
 from sensor_msgs.msg import Imu
 
-# computer IP: 169.254.168.23
-
 import numpy as np
 
 class Bluerov2_Sensors(Node):
